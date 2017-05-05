@@ -22,7 +22,7 @@ function isOneOf(one, of) {
   return one === of;
 }
 
-const triggerType = PropTypes.oneOf(['click', 'hover', 'focus']);
+const triggerType = PropTypes.oneOf(['click', 'hover', 'focus', 'contextmenu']);
 
 const propTypes = {
   ...Overlay.propTypes,
